@@ -114,14 +114,14 @@
 **Tampilan halaman About setelah dihubungkan dengan template header dan footer**
 ![24 About Page](https://user-images.githubusercontent.com/56189248/122628738-10531a00-d0e2-11eb-8cd2-44d70509638e.png)
 
-\n
-\n
+<br>
+<br>
 
 ![php spark serve](https://user-images.githubusercontent.com/56189248/122628739-121cdd80-d0e2-11eb-8e33-8220cf4b6e85.png)
 
-\n
-\n
-\n
+<br>
+<br>
+<br>
 
 # Lanjutan ke Praktikum 12
 

@@ -114,179 +114,179 @@
 **Tampilan halaman About setelah dihubungkan dengan template header dan footer**
 ![24 About Page](https://user-images.githubusercontent.com/56189248/122628738-10531a00-d0e2-11eb-8cd2-44d70509638e.png)
 
-\n
-\n
+<br>
+<br>
 
 ![php spark serve](https://user-images.githubusercontent.com/56189248/122628739-121cdd80-d0e2-11eb-8e33-8220cf4b6e85.png)
 
-\n
-\n
-\n
+<br>
+<br>
+<br>
 
 # Lanjutan ke Praktikum 12
 
-\n
-\n
+<br>
+<br>
 **Membuat database dengan nama lab_c14 untuk webserver**
 
 ![01 Create Database](https://user-images.githubusercontent.com/56189248/123497762-8c58df00-d659-11eb-9c7e-4cfba8c38864.png)
-\n
-\n
+<br>
+<br>
 **Mambuat table dengan nama artikel pada database yang sudah dibuat**
 
 ![02 Create Table Artikel](https://user-images.githubusercontent.com/56189248/123497763-8c58df00-d659-11eb-89d0-17a520115d73.png)
-\n
-\n
+<br>
+<br>
 **Database dan table yang sudah dibuat pada phpmyadmin**
 
 ![02 Database dan table di phpmyadmin](https://user-images.githubusercontent.com/56189248/123497765-8cf17580-d659-11eb-9caf-76338d69b0b3.png)
-\n
-\n
+<br>
+<br>
 **Melakukan konfigurasi koneksi ke dalam database yang sudah dibuat**
 
 ![03 KOnfigurasi Koneksi Dtabase](https://user-images.githubusercontent.com/56189248/123497766-8d8a0c00-d659-11eb-87ca-ae476dd364ae.png)
-\n
-\n
+<br>
+<br>
 **Membuat model untuk ertikel dengan nama ArtikelModel.php pada app/Models**
 
 ![04 ArtikelModel php](https://user-images.githubusercontent.com/56189248/123497767-8d8a0c00-d659-11eb-9737-c8048956dc2f.png)
-\n
-\n
+<br>
+<br>
 **Membuat function pada controller Artikel**
 
 ![05 Function Controller Artikel php](https://user-images.githubusercontent.com/56189248/123497768-8e22a280-d659-11eb-94d2-f129f3293b3c.png)
-\n
-\n
+<br>
+<br>
 **Membuat file php untuk halaman Artikel**
 
 ![06 View_Artikel_Index php](https://user-images.githubusercontent.com/56189248/123497769-8ebb3900-d659-11eb-8d8a-c5088f2f7fbc.png)
-\n
-\n
+<br>
+<br>
 **Hasil tampilan artikel yang belum diisi dengan data**
 
 ![07 Halaman Artikel tanpa data](https://user-images.githubusercontent.com/56189248/123497770-8ebb3900-d659-11eb-9d2a-db90a31e4c6b.png)
-\n
-\n
+<br>
+<br>
 **Menambahkan data ke dalam table**
 
 ![08 Insert data to tabale artikel](https://user-images.githubusercontent.com/56189248/123497773-8fec6600-d659-11eb-8439-09d37a429d23.png)
-\n
-\n
+<br>
+<br>
 **Hasil tampilan halaman artikel yang sudah diisikan data**
 
 ![09 Halaman artikel dengan data](https://user-images.githubusercontent.com/56189248/123497774-8fec6600-d659-11eb-8acb-935f8bb24261.png)
-\n
-\n
+<br>
+<br>
 **Membuat function index untuk arrtikel**
 
 ![10 Function Controller Artikel  View php](https://user-images.githubusercontent.com/56189248/123497776-9084fc80-d659-11eb-832e-bdf0e79983f2.png)
-\n
-\n
+<br>
+<br>
 **Membuat file php untuk halaman detail artikel**
 
 ![11 Artikel Detail php](https://user-images.githubusercontent.com/56189248/123497777-911d9300-d659-11eb-9b7f-8fd1da9a7c84.png)
-\n
-\n
+<br>
+<br>
 **Membuat routing untuk artikel detail pada app/config/Routes.php**
 
 ![12 Rote for Artikel](https://user-images.githubusercontent.com/56189248/123497778-91b62980-d659-11eb-9f83-e3880191b59b.png)
-\n
-\n
+<br>
+<br>
 **Tampilan halaman artikel ketika judul artikel di klik**
 
 ![13 Halaman Detail Artikel 1](https://user-images.githubusercontent.com/56189248/123497779-91b62980-d659-11eb-80b8-30cb919b6559.png)
-\n
+<br>
 ![14 Halaman Detail Artikel 2](https://user-images.githubusercontent.com/56189248/123497780-924ec000-d659-11eb-9512-8ef3a7ede159.png)
-\n
-\n
+<br>
+<br>
 **Membuat function admin_index untuk pada Controllers/Artikel.php**
 
 ![15 Function Controller Artikel  admin_indexphp](https://user-images.githubusercontent.com/56189248/123497781-924ec000-d659-11eb-824d-a54292df8e8d.png)
-\n
-\n
+<br>
+<br>
 **Membuat file admin_index.php untuk halaman admin artikel**
 
 ![16 admin_index php](https://user-images.githubusercontent.com/56189248/123497782-92e75680-d659-11eb-8cf8-e849a4b212fe.png)
-\n
-\n
+<br>
+<br>
 **Membuat routing untuk akses halaman admin**
 
 ![17 Route for admin](https://user-images.githubusercontent.com/56189248/123497783-937fed00-d659-11eb-94b5-67fdbaf8a275.png)
-\n
-\n
+<br>
+<br>
 **Tampilan halaman admin/artikel.php ketika di akses:**
 
 ![18 Halaman Admin Artikel](https://user-images.githubusercontent.com/56189248/123497784-937fed00-d659-11eb-99e9-f5c822ec73d9.png)
-\n
-\n
+<br>
+<br>
 **Membuat function add untuk menambah artikel**
 
 ![19 Function Controller Artikel  add php](https://user-images.githubusercontent.com/56189248/123497785-94188380-d659-11eb-9b5b-f7454cc549eb.png)
-\n
-\n
+<br>
+<br>
 **Membuat file form_add.php untuk menampilkan halaman menambah artikel**
 
 ![20 form_add php](https://user-images.githubusercontent.com/56189248/123497749-85ca6780-d659-11eb-9bdb-ad1448bdf0b5.png)
-\n
-\n
+<br>
+<br>
 **Tapilan halaman admin/artikel/add.php ketika navbar 'Tambah Artikel' di klik:**
 
 ![21 Halaman Artikel Add](https://user-images.githubusercontent.com/56189248/123497750-86fb9480-d659-11eb-838c-0ab2546ba031.png)
-\n
-\n
+<br>
+<br>
 **Membuat function add untuk edit artikel**
 
 ![22 Function Controller Artikel  edit php](https://user-images.githubusercontent.com/56189248/123497751-87942b00-d659-11eb-9c9a-cb2fa2532334.png)
-\n
-\n
+<br>
+<br>
 **Membuat file form_edit.php untuk menampilkan halaman edit artikel**
 
 ![23 form_edit php](https://user-images.githubusercontent.com/56189248/123497752-882cc180-d659-11eb-83bb-b2ce0abe1482.png)
-\n
-\n
+<br>
+<br>
 **Tapilan halaman admin/artikel/edit/...php ketika tomol 'Ubah' pada table di klik:**
 
 ![24 Halaman Artikel Edit](https://user-images.githubusercontent.com/56189248/123497753-882cc180-d659-11eb-8549-8c592aebc74b.png)
-\n
-\n
+<br>
+<br>
 **Membuat function add untuk delete artikel**
 
 ![25 Function Controller Artikel  delete php](https://user-images.githubusercontent.com/56189248/123497754-88c55800-d659-11eb-92ff-800c22b882f0.png)
-\n
-\n
+<br>
+<br>
 **Tampilan warning message ketika tombol 'Hapus' pada table di klik:**
 ![26 Delete artikel warning message](https://user-images.githubusercontent.com/56189248/123497755-895dee80-d659-11eb-927c-cb3a57a0764e.png)
-\n
-\n
+<br>
+<br>
 **Template header yang dipakai pada halaman utama**
 
 ![27 Template Header Index](https://user-images.githubusercontent.com/56189248/123497756-89f68500-d659-11eb-9111-1362c32d1c7d.png)
-\n
-\n
+<br>
+<br>
 **Template footer yang dipakai pada halaman utama**
 
 ![28 Template Footer Index](https://user-images.githubusercontent.com/56189248/123497757-89f68500-d659-11eb-81cb-321bfcc87cf1.png)
-\n
-\n
+<br>
+<br>
 **Template header yang dipakai pada halaman admin**
 
 ![29 Template Admin Header](https://user-images.githubusercontent.com/56189248/123497758-8a8f1b80-d659-11eb-80f2-7d58a50876c7.png)
-\n
-\n
+<br>
+<br>
 **Template footer yang dipakai pada halaman admin**
 
 ![30 Template Admin Footer](https://user-images.githubusercontent.com/56189248/123497759-8b27b200-d659-11eb-8ced-1f90a655992c.png)
-\n
-\n
+<br>
+<br>
 **style.css yang dipakai untuk styling table pada halaman admin**
 
 ![31 CSS untuk Table Admin Index](https://user-images.githubusercontent.com/56189248/123497760-8b27b200-d659-11eb-8145-4457c143e999.png)
-\n
-\n
+<br>
+<br>
 **style.css yang dipakai untuk styling form pada halaman tambah artikel**
 
 ![32 CSS untuk Form Add](https://user-images.githubusercontent.com/56189248/123497761-8bc04880-d659-11eb-809b-2e94c99b502b.png)
 
-\n
-\n
+<br>
+<br>
 ***Terima kasih***

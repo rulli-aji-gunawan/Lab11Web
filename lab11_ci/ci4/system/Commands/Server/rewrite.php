@@ -44,3 +44,5 @@ if ($uri !== '/' && (is_file($path) || is_dir($path)))
 // the framework handle the request from here.
 require_once $fcpath . 'index.php';
 // @codeCoverageIgnoreEnd
+
+// just comment

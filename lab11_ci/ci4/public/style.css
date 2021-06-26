@@ -98,12 +98,13 @@ nav a:hover {
 }
 .widget-box ul{
     list-style-type: none;
+    margin-left: 0px;
 }
 .widget-box li{
     border-bottom: 1px solid #eee;
 }
 .widget-box li a{
-    padding: 10px 16px;
+    padding: 10px;
     color: #333;
     display: block;
     text-decoration: none;
@@ -120,8 +121,9 @@ nav a:hover {
 footer {
     clear: both;
     background-color: #1d1d1d;
-    padding: 20px;
+    padding: 25px;
     color: #eee;
+    /* height: 100px; */
 }
 
 /* box */
@@ -170,12 +172,19 @@ footer {
     border-top: 1px solid #eeeeee;
     margin: 40px 0;
 }
+
+
 /* entry */
 .entry{
     margin: 15px 0;
 }
 .entry h2{
     margin-bottom: 20px;
+    text-decoration: none;
+}
+.entry a{
+    text-decoration: inherit;
+    color: inherit;
 }
 .entry p{
     line-height: 25px;
@@ -207,3 +216,82 @@ form input[type="submit"] {
     font-weight: bold;
     padding: 5px 15px;
 }
+
+
+
+/* Table  */
+
+.table {
+    margin: 20px;
+}
+
+table.table th {
+    background-color: #2b83ea;
+    color: white;
+    padding: 10px;
+    height: 20px;
+}
+
+table.table th, td{
+    border: solid lightgray 1px;
+}
+
+table.table p {
+    margin: 0;
+}
+
+.aksi{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+tbody td a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+.btn {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+.btn-danger {
+    background-color:indianred;
+    color: whitesmoke;
+}
+
+
+/* Form Add */
+
+form p {
+    margin: 20px;
+}
+
+h2.pageTitle {
+    margin-left: 20px;
+}
+
+form input[type="text"]{
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 120%;
+}
+
+form textarea {
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 120%;
+}
+
+form input[type="submit"] {
+    padding: 8px 15px 8px;
+    border-radius: 3px;
+}
+
+

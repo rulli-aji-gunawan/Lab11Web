@@ -4,6 +4,26 @@ namespace App\Controllers;
 
 class Page extends BaseController
 {
+    public function home()
+    {
+        return view('home',[
+            'title' => 'Halaman Home', 
+            'content' => 'Ini adalah halaman Home yang menjelaskan tentang isi halaman ini.'
+        ]);
+    }
+    
+    // public function artikel()
+    // {
+    //     // return view('artikel',[
+    //     //     'title' => 'Halaman Artikel',
+    //     //     'content' => 'Ini adalah halaman Artikel yang menjelaskan tentang isi halaman ini.'
+    //     // ]);
+
+    //     return view('artikel',[
+    //         'title','content'
+    //     ]);
+    // }
+    
     public function about()
     {
         return view('about',[

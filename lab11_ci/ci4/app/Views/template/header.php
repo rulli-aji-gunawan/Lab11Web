@@ -13,10 +13,13 @@
             <h1>Layout Sederhana</h1>
         </header>
         <nav>
-            <a href="<? base_url('/'); ?>" class="active">Home</a>
-            <a href="<? base_url('/artikel'); ?>">Artikel</a>
-            <a href="<? base_url('/about'); ?>" >About</a>
-            <a href="<? base_url('/contact'); ?>">Kontak</a>
+
+            <!-- <a href="<?= base_url('/'); ?>" class="active">Home</a> --> 
+            <a href="<?= base_url('/'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/") ? "active" : ""; ?>" >Home</a>
+            <a href="<?= base_url('/artikel'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/artikel") ? "active" : ""; ?>" >Artikel</a>
+            <a href="<?= base_url('/about'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/about") ? "active" : ""; ?>" >About</a>
+            <a href="<?= base_url('/contact'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/contact") ? "active" : ""; ?>" >Kontak</a>
         </nav>
         <section id="wrapper"> 
             <section id="main">
+

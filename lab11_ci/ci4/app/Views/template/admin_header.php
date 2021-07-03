@@ -11,6 +11,7 @@
     <div id="container">
         <header>
             <h1>Admin Portal Berita</h1>
+            <a class="btn" id="logout" href="<?= base_url('/user/logout');?>">Logout</a>
         </header>
         <nav>
             <a href="<?= base_url('/admin/artikel'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/admin/artikel") ? "active" : ""; ?>">Dashboard</a>

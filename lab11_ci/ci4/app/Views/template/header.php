@@ -11,11 +11,12 @@
     <div id="container">
         <header>
             <h1>Layout Sederhana</h1>
+            <a class="btn" id="logout" href="<?= base_url('/user/logout');?>">Logout</a>
         </header>
         <nav>
 
             <!-- <a href="<?= base_url('/'); ?>" class="active">Home</a> --> 
-            <a href="<?= base_url('/'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/") ? "active" : ""; ?>" >Home</a>
+            <a href="<?= base_url('/'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/") ? "active" : ""; ?>" >Home</a>  
             <a href="<?= base_url('/artikel'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/artikel") ? "active" : ""; ?>" >Artikel</a>
             <a href="<?= base_url('/about'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/about") ? "active" : ""; ?>" >About</a>
             <a href="<?= base_url('/contact'); ?>" class="<?php echo($_SERVER['REQUEST_URI']=="/contact") ? "active" : ""; ?>" >Kontak</a>

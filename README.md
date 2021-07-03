@@ -289,4 +289,102 @@
 
 <br>
 <br>
+<br>
+
+# Lanjutan ke Praktikum 13
+
+<br>
+<br>
+**Framework Lanjutan (Modul Login)**
+<br>
+<br>
+**Membuat tabel User pada database**
+
+![01 Create table user](https://user-images.githubusercontent.com/56189248/124338716-aa7f8b80-dbd3-11eb-9de6-e034d89ff602.png)
+<br>
+<br>
+**Membuat Model User pada direktori app/Models dengan nama UserModel.php**
+
+![02 Membuat Model User php](https://user-images.githubusercontent.com/56189248/124338718-abb0b880-dbd3-11eb-9e15-c2022e5501a3.png)
+<br>
+<br>
+**Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+Kemudian menambahkan method index() untuk menampilkan daftar user, dan method
+login() untuk proses login.**
+
+![03 Controller User](https://user-images.githubusercontent.com/56189248/124338720-ac494f00-dbd3-11eb-8ea7-259d7e7486e7.png)
+<br>
+<br>
+**Membuat halaman login dengan nama login.php**
+
+![04 Login php page](https://user-images.githubusercontent.com/56189248/124338722-ace1e580-dbd3-11eb-9080-fac018b4d33b.png)
+<br>
+<br>
+**Membuat Database Seeder. 
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul
+login, kita perlu memasukkan data user dan password kedalam database. Untuk itu buat
+database seeder untuk tabel user. Dengan menggunakan CLI, kemudian tulis perintah berikut:**
+
+![05 Membuat database seeder dengan CLI](https://user-images.githubusercontent.com/56189248/124338723-ace1e580-dbd3-11eb-8cd4-af522c083fdf.png)
+<br>
+<br>
+**Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori
+/app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:**
+
+![06 UserSeeder](https://user-images.githubusercontent.com/56189248/124338725-ad7a7c00-dbd3-11eb-9265-3e4981c04326.png)
+<br>
+<br>
+**Selanjutnya buka kembali CLI dan ketik perintah berikut:**
+
+![07 seed UserSeeder](https://user-images.githubusercontent.com/56189248/124338726-ae131280-dbd3-11eb-8536-af3bf3fd1422.png)
+<br>
+<br>
+**Ketika ujicoba dengan membuka url  http://localhost:8080/user/login , maka tampilannya seperti berikut:**
+
+![08  Login webpage](https://user-images.githubusercontent.com/56189248/124338727-ae131280-dbd3-11eb-8ab5-b9de1f008cb6.png)
+<br>
+<br>
+**Menambahkan Auth Filter
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php
+pada direktori app/Filters.**
+
+![09 Auth php](https://user-images.githubusercontent.com/56189248/124338728-aeaba900-dbd3-11eb-930a-6891802917be.png)
+<br>
+<br>
+**Selanjutnya pada file app/Config/Filters.php ditambahkan kode berikut:**
+
+![10 Config-Filter-Auth](https://user-images.githubusercontent.com/56189248/124338729-af443f80-dbd3-11eb-95c3-e926425c1557.png)
+<br>
+<br>
+**Selanjutnya sesuaikan kodenya pada file app/Config/Routes.php**
+
+![11 Add Filter in Routes](https://user-images.githubusercontent.com/56189248/124338731-af443f80-dbd3-11eb-9e9a-1148c26c6a7d.png)
+<br>
+<br>
+**Ketika diujicoba dengan membuka url  http://localhost:8080/admin/artikel tanpa login, maka akan dikembalikan ke halaman login:**
+
+![08  Login webpage](https://user-images.githubusercontent.com/56189248/124338727-ae131280-dbd3-11eb-8ab5-b9de1f008cb6.png)
+<br>
+<br>
+**Selanjutnya menambahkan method logout pada Controller User seperti berikut**
+
+![12 Controller User Logout](https://user-images.githubusercontent.com/56189248/124338732-afdcd600-dbd3-11eb-9975-ffe0f8d020bc.png)
+<br>
+<br>
+**Selanjutnya menambahkan tombol logout pada template admin_header.php**
+
+![13 Menambahkan tombol logout pada admin_header](https://user-images.githubusercontent.com/56189248/124338733-b0756c80-dbd3-11eb-9cbb-cd5ed067d69f.png)
+<br>
+<br>
+**Berikut tampilan halaman admin/artikel ketika sudah masuk atau login menggunakan email : admin@email.com , dan password : admin123 **
+
+![14 Tampilan Ketika Login Admin Artikel](https://user-images.githubusercontent.com/56189248/124338735-b0756c80-dbd3-11eb-8b3b-0901e0538936.png)
+<br>
+<br>
+**Berikut adalah style css tambahan untuk halaman login dan tombol logout **
+
+
+![15 CSS login dan logout](https://user-images.githubusercontent.com/56189248/124338736-b10e0300-dbd3-11eb-89e9-1e544f181217.png)
+<br>
+<br>
 ***Terima kasih***

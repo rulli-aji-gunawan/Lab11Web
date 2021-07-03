@@ -25,12 +25,26 @@ body {
 
 /* header */
 header {
+    display: flex;
+    flex-direction: row;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 header h1 {
+    align-items: flex-start;
     margin: 20px 10px;
     color: #b5b5b5;
 }
+
+header a {
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
 
 /* navigasi */
 nav {
@@ -46,6 +60,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
 
 nav a.active,
 nav a:hover {
@@ -122,7 +137,7 @@ footer {
     clear: both;
     background-color: #1d1d1d;
     padding: 25px;
-    color: #eee;
+    color: darkgrey;
     /* height: 100px; */
 }
 
@@ -295,3 +310,41 @@ form input[type="submit"] {
 }
 
 
+
+/* Login Page */
+
+#login-wrapper {
+    padding: 20px;
+    width:400px;
+    margin: 50px auto;
+    box-shadow: 0 0 1em #cccccc;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.mb-3 input {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 2.5em;
+    border-radius: 0.5em;
+    width: 300px;
+}
+
+.btn-primary,
+a.btn {
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+
+}
+
+/* Logout */
+
+#logout,
+.btn-primary:hover {
+    background-color: darkslategrey;
+    /* opacity: 0; */
+    color: whitesmoke;
+}

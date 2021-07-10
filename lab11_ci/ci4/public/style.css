@@ -47,12 +47,17 @@ header a {
 
 
 /* navigasi */
-nav {
+/* nav {
+    display: block;
+    background-color: #1f5faa;
+} */
+
+.navMenu {
     display: block;
     background-color: #1f5faa;
 }
 
-nav a {
+.navMenu a {
     padding: 15px 30px;
     display: inline-block;
     color: #ffffff;
@@ -62,8 +67,8 @@ nav a {
 }
 
 
-nav a.active,
-nav a:hover {
+.navMenu a.active,
+.navMenu a:hover {
     background-color: #2b83ea;
 }
 
@@ -236,6 +241,21 @@ form input[type="submit"] {
 
 /* Table  */
 
+form.form-search {
+    margin-left: 20px;
+    font-size: 80%;        
+}
+
+.form-search input {
+    height: 30px;
+    justify-content: center;
+}
+
+.form-search input[name="q"] {
+    width: 25%;
+    margin-right: 10px;
+}
+
 .table {
     margin: 20px;
 }
@@ -279,6 +299,30 @@ tbody td a {
     color: whitesmoke;
 }
 
+.pagination {
+    display: flex;
+    list-style-type: none;
+    margin-left: -20px;  
+}
+
+.pagination a.active,
+.pagination a:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+.pagination a{
+    float: left;
+    padding: 10px 12px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    border: solid gray 1px;
+    border-radius: 4px;
+    font-size: 0.7em;
+}
+
+.page {
+    padding: 16px;
+}
 
 /* Form Add */
 
@@ -320,7 +364,7 @@ form input[type="submit"] {
     box-shadow: 0 0 1em #cccccc;
     box-sizing: border-box;
     text-align: center;
-    border-radius: 2em;
+    border-radius: 1em;
 }
 
 .mb-3 input {

@@ -387,4 +387,84 @@ pada direktori app/Filters.**
 ![15 CSS login dan logout](https://user-images.githubusercontent.com/56189248/124338736-b10e0300-dbd3-11eb-89e9-1e544f181217.png)
 <br>
 <br>
+<br>
+
+# Lanjutan ke Praktikum 13
+
+<br>
+<br>
+**Pagination dan Pencarian**
+<br>
+<br>
+**Modifikasi method admin_index pada Controller Artikel**
+
+![01 Admin Index](https://user-images.githubusercontent.com/56189248/125155817-7afcf000-e18c-11eb-9d41-cf9e918a1115.png)
+<br>
+<br>
+**Menambahkan kode pada admin_index.php di veiws artikel**
+
+![02 Pager links](https://user-images.githubusercontent.com/56189248/125155818-7c2e1d00-e18c-11eb-81f9-7b1fb2247894.png)
+<br>
+<br>
+**Hasilnya akan muncul nomor halaman seperti berikut**
+
+![03 Tampilan hasil paging](https://user-images.githubusercontent.com/56189248/125155819-7cc6b380-e18c-11eb-852a-6dbcb10de19d.png)
+<br>
+<br>
+**Menambahkan method pencarian untuk mencari artikel yang telah tersimpan di table**
+
+![04 Method pencarian](https://user-images.githubusercontent.com/56189248/125155823-7cc6b380-e18c-11eb-9cc4-ce14db6ee094.png)
+<br>
+<br>
+**Menambahkan form pencarian pada halaman admin/artikel**
+
+![05 Form pencarian](https://user-images.githubusercontent.com/56189248/125155824-7d5f4a00-e18c-11eb-8065-7a5e131f7f42.png)
+<br>
+<br>
+**Merubah kode link paginasi**
+
+![06 Ubah Pager Links](https://user-images.githubusercontent.com/56189248/125155825-7df7e080-e18c-11eb-9b3a-2cc44472dc6c.png)
+<br>
+<br>
+**Contoh hasil pencarian dengan input kata kunci adalah judul artikel**
+
+![07 Contoh hasil pencarian](https://user-images.githubusercontent.com/56189248/125155826-7df7e080-e18c-11eb-99f0-0ed3a396a240.png)
+<br>
+<br>
+**Menambahkan kode fungs untuk upload gambar pada pada Controller Artikel dalam method add **
+
+![08 Kode add gambar](https://user-images.githubusercontent.com/56189248/125155827-7e907700-e18c-11eb-906a-dde50c28ae8c.png)
+<br>
+<br>
+**Menambahkan field input pada halaman form_add.php**
+
+![09 Modifikasi Form Add](https://user-images.githubusercontent.com/56189248/125155829-7f290d80-e18c-11eb-9108-4a77979ddeb7.png)
+<br>
+<br>
+**Menyesuaikan tag form dengan manambahkan encrypt type seperti berikut:**
+
+![10 Tampilan halaman tambah artikel](https://user-images.githubusercontent.com/56189248/125155830-7f290d80-e18c-11eb-95ed-3f3bebe067a9.png)
+<br>
+<br>
+**Contoh menambahkan artikel baru beserta gambar**
+
+![11 Tambah Artikel dan gambar](https://user-images.githubusercontent.com/56189248/125155831-7fc1a400-e18c-11eb-88b3-79a34584e92d.png)
+<br>
+<br>
+**Artikel baru berhasil tersimpan pada table artikel**
+
+![12 Artikel keenam berhasil tersimpan di table](https://user-images.githubusercontent.com/56189248/125155833-7fc1a400-e18c-11eb-9d3b-f69224bac911.png)
+<br>
+<br>
+**Dan gambarpun muncul pada artikel yang baru ditambahkan pada halaman Artikel**
+
+![13 Tampilan artikel keenam pada halaman Artikel](https://user-images.githubusercontent.com/56189248/125155834-805a3a80-e18c-11eb-8559-3f7d1da62185.png)
+<br>
+<br>
+****
+<br>
+<br>
+
+
+
 ***Terima kasih***
